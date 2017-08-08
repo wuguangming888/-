@@ -1,0 +1,33 @@
+ /*默认样式*/
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     border:0;
+ }
+ ul,ol,dl,li {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+
+ }
+ a  {
+     text-decoration: none;
+     color: #000;
+ }
+ h1,h2,h3,h4,h5,h6 {
+     font-size: 1rem;
+     font-weight: normal;
+ }
+ h3{
+     color: #ff6700;
+ }
+ /*总结
+   首先  body默认外边距
+   然后ul，ol,dl 又外边距 又默认符号
+   a 有默认的下划线 有蓝色
+   h1-h6  字体有默认大小
+   input  和button 有边框和内外编剧
+
+ */
